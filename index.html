@@ -1,0 +1,15 @@
+
+<script>
+    $(document).ready(function () {
+
+
+
+        var users = $( "input[name='user']" );
+        $.each( users, function( key, value ) {
+            console.log(decodeURIComponent($(value).attr("value")));
+        });
+
+
+    });
+
+</script>
